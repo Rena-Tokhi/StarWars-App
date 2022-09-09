@@ -21,7 +21,7 @@ async function getPlanets(page) {
                                 <li class="list-group-item">Orbital period : ${planet.orbital_period}</li>
                             </ul>
                             <div class="card-body">
-                                <div class="d-flex justify-content-start mb-4"><a class="btn btn-primary text-uppercase" href="people.html?id=${planetId}">More Details →</a></div>
+                                <div class="d-flex justify-content-start mb-4"><a class="btn btn-primary text-uppercase" href="planets.html?id=${planetId}">More Details →</a></div>
                             </div>
                         </div> `;
     container.innerHTML += planetHtml;
@@ -116,7 +116,7 @@ async function getPlanet(id) {
                                   <li class="list-group-item">Release date: ${filmData.release_date}</li>
                               </ul>
                               <div class="card-body">
-                                <div class="d-flex justify-content-start mb-4"><a class="btn btn-primary text-uppercase" href="people.html?id=${filmId}">More Details →</a></div>
+                                <div class="d-flex justify-content-start mb-4"><a class="btn btn-primary text-uppercase" href="film.html?id=${filmId}">More Details →</a></div>
                               </div>
                           </div> `;
         filmsContainer.innerHTML += filmHtml;

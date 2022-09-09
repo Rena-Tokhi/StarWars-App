@@ -56,7 +56,7 @@ getDataAndInject(`${rootApiUrl}films`, (result) => {
                       }</li>
                   </ul>
                   <div class="card-body">
-                      <div class="d-flex justify-content-start mb-4"><a class="btn btn-primary text-uppercase" href="people.html?id=${getId(
+                      <div class="d-flex justify-content-start mb-4"><a class="btn btn-primary text-uppercase" href="film.html?id=${getId(
                         result.url
                       )}">More Details →</a></div>
                   </div>
@@ -82,7 +82,7 @@ getDataAndInject(`${rootApiUrl}planets`, (result) => {
                         }</li>
                     </ul>
                     <div class="card-body">
-                    <div class="d-flex justify-content-start mb-4"><a class="btn btn-primary text-uppercase" href="people.html?id=${getId(
+                    <div class="d-flex justify-content-start mb-4"><a class="btn btn-primary text-uppercase" href="planets.html?id=${getId(
                       result.url
                     )}">More Details →</a></div>
                     </div>
